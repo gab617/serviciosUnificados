@@ -6,8 +6,7 @@ let dataBW = null;
 const loadData = async () => {
   console.log("Iniciando la carga de datos...");
 
-  const directorioRelativo = "./src/bw/public/images/";
-  const directorio = path.resolve(directorioRelativo);
+  const directorio = path.join(__dirname, "public/images");
 
   try {
     // Lee el directorio principal
@@ -51,7 +50,6 @@ const loadData = async () => {
     const objetoReturn = objetos.reduce((resultado, objeto) => {
       return { ...resultado, ...objeto };
     }, {});
-
     return objetoReturn;
   } catch (error) {
     console.error("Error general:", error);

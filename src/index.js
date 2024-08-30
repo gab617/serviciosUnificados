@@ -19,12 +19,22 @@ const getKeys = require("./BW/routes");
 const completedImg = require("./BW/routes");
 const getImageId = require("./BW/routes");
 
-app.use("/bw", appBW); /* ping */
-app.use("/bw", dataBW); /* databw */
-app.use("/bw", findObjId); /* element/:id */
-app.use("/bw", getKeys); /* keywords*/
-app.use("/bw", completedImg); /* completed*/
+app.use("/bw", appBW); /* /ping */
+app.use("/bw", dataBW); /* /databw */
+app.use("/bw", findObjId); /* /element/:id */
+app.use("/bw", getKeys); /* /keywords*/
+app.use("/bw", completedImg); /* /completed*/
 app.use("/bw", getImageId); /* /:categoria/:imageName*/
+
+/* DOTA2APP */
+const appD2 = require("./D2/routes")
+const listHeros = require("./D2/routes")
+const heroDetail = require("./D2/routes")
+
+app.use("/d2", appD2) /* /ping */
+app.use("/d2", listHeros) /* /ping */
+app.use("/d2", heroDetail) /* /ping */
+
 /* const app2 = require("./D2/routes");
 const app3 = require("./GHY/routes");
 const app4 = require("./CTN/routes"); */

@@ -1,5 +1,4 @@
 const { initializeData, findElementById } = require("./utils");
-const fs = require("fs/promises");
 const path = require("path");
 
 let dataBW = null;
@@ -13,7 +12,7 @@ exports.pingBW = (req, res) => {
     res.status(200).send("ping BW");
   } catch (error) {
     console.error("Error en pingBW:", error);
-    res.status(500).json({ message: "Error interno del servidor" });
+    res.status(500).json({ message: "Error interno del servidor bw" });
   }
 };
 

@@ -2,6 +2,7 @@ const fs = require("fs/promises");
 const path = require("path");
 
 let dataBW = null;
+const urlServidor = "https://serviciosunificados.onrender.com"
 
 const loadData = async () => {
   console.log("Iniciando la carga de datos...");
@@ -26,7 +27,7 @@ const loadData = async () => {
           let texto_ingles = separacionDePartes[0];
           return {
             id: id,
-            url: `https://e-b-js-traduciones.onrender.com/bw/public/images/${archivo}/${nombreImagen}`,
+            url: `${urlServidor}/bw/public/images/${archivo}/${nombreImagen}`,
             ing: `${
               texto_ingles.charAt(0).toUpperCase() +
               texto_ingles.slice(1).replace(/\.[^.]+$/, "")

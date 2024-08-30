@@ -27,7 +27,7 @@ const loadData = async () => {
           let texto_ingles = separacionDePartes[0];
           return {
             id: id,
-            url: `${urlServidor}/bw/public/images/${archivo}/${nombreImagen}`,
+            url: `${urlServidor}/bw/${archivo}/${nombreImagen}`,
             ing: `${
               texto_ingles.charAt(0).toUpperCase() +
               texto_ingles.slice(1).replace(/\.[^.]+$/, "")

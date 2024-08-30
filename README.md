@@ -1,0 +1,1 @@
+La idea es unificar 4 de mis servidores de manera efectiva y siguiendo un buen sistema de ficheros para lograr individualidad para servir a distintas aplicaciones en un solo servidor separado por tareas.

@@ -2,6 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const cors = require("cors");
 
+
 const app = express();
 
 app.use(express.json())
@@ -11,7 +12,7 @@ app.use(
     })
   );;
 
-/* BASIC WORDS */
+/* BASIC WORDS ----------------------------------------------------------------------------------------------------------------------------------------*/
 const appBW = require("./BW/routes");
 const dataBW = require("./BW/routes");
 const findObjId = require("./BW/routes");
@@ -26,20 +27,25 @@ app.use("/bw", getKeys); /* /keywords*/
 app.use("/bw", completedImg); /* /completed*/
 app.use("/bw", getImageId); /* /:categoria/:imageName*/
 
-/* DOTA2APP */
+/* DOTA2APP ----------------------------------------------------------------------------------------------------------------------------------------*/
 const appD2 = require("./D2/routes")
 const listHeros = require("./D2/routes")
 const heroDetail = require("./D2/routes")
 
 app.use("/d2", appD2) /* /ping */
-app.use("/d2", listHeros) /* /ping */
-app.use("/d2", heroDetail) /* /ping */
+app.use("/d2", listHeros) /* /heros-list */
+app.use("/d2", heroDetail) /* /detail/:id */
 
-/* const app2 = require("./D2/routes");
-const app3 = require("./GHY/routes");
-const app4 = require("./CTN/routes"); */
+/* CONTACTO ----------------------------------------------------------------------------------------------------------------------------------------*/
+const appCtn = require("./CTN/routes")
+const enviarCorreo = require("./CTN/routes")
 
-/* app.use("/d2", app2);
+app.use("/cnt", appCtn) /* /ping */
+app.use("/cnt", enviarCorreo) /* /enviar-correo */
+
+/*  */
+
+/* 
 app.use("/ghy", app3);
 app.use("/ctn", app4); */
 

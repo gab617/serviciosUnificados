@@ -47,7 +47,7 @@ app.use("/cnt", enviarCorreo) /* /enviar-correo */
 
 /* 
 app.use("/ghy", app3);
-app.use("/ctn", app4); */
+*/
 
 // Ruta principal
 app.get("/", (req, res) => {

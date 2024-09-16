@@ -43,7 +43,6 @@ const enviarCorreo = require("./CTN/routes")
 app.use("/cnt", appCtn) /* /ping */
 app.use("/cnt", enviarCorreo) /* /enviar-correo */
 
-/*  */
 
 /* 
 app.use("/ghy", app3);

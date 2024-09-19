@@ -43,10 +43,19 @@ const enviarCorreo = require("./CTN/routes")
 app.use("/cnt", appCtn) /* /ping */
 app.use("/cnt", enviarCorreo) /* /enviar-correo */
 
+/* BASE DE DATOS ------------------------------------------------------------------------------------------------------------------------------------*/
 
-/* 
-app.use("/ghy", app3);
-*/
+const register = require("./DB/routes")
+const login = require("./DB/routes")
+const getUsers = require("./DB/routes")
+const uploadPointsUser = require("./DB/routes")
+const verifyBDD = require("./DB/routes")
+
+app.use("/bd",register)
+app.use("/bd",login)
+app.use("/bd",getUsers)
+app.use("/bd",uploadPointsUser)
+app.use("/bd",verifyBDD)
 
 // Ruta principal
 app.get("/", (req, res) => {

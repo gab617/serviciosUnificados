@@ -2,9 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const cors = require("cors");
 
-
 const app = express();
-
 app.use(express.json())
 app.use(
     cors({
@@ -51,11 +49,11 @@ const getUsers = require("./DB/routes")
 const uploadPointsUser = require("./DB/routes")
 const verifyBDD = require("./DB/routes")
 
-app.use("/bd",register)
-app.use("/bd",login)
-app.use("/bd",getUsers)
-app.use("/bd",uploadPointsUser)
-app.use("/bd",verifyBDD)
+app.use("/db",register)
+app.use("/db",login)
+app.use("/db",getUsers)
+app.use("/db",uploadPointsUser)
+app.use("/db",verifyBDD)
 
 // Ruta principal
 app.get("/", (req, res) => {

@@ -3,6 +3,7 @@ const path = require("path");
 
 let dataBW = null;
 const urlServidor = "https://serviciosunificados.onrender.com"
+/* const urlServidor = "http://localhost:3001" */
 
 const loadData = async () => {
   console.log("Iniciando la carga de datos...");

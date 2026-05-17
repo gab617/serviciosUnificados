@@ -1,40 +1,31 @@
 require("dotenv").config();
 
 exports.pingContact = (req, res) => {
-  try {
-    res.status(200).send("Ping Contact service");
-  } catch (error) {
-    res.status(500).json({ message: "Error interno del servidor CNT" });
-  }
+  res.status(200).send("Ping Contact service");
 };
 
 exports.enviarCorreo = async (req, res) => {
   try {
-    const { addresse, subject, message } = req.body;
+    const { name, addresse, subject, message } = req.body;
 
-    const response = await fetch("https://api.sendgrid.com/v3/mail/send", {
+    const response = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${process.env.SENDGRID_API_KEY}`,
+        "Authorization": `Bearer ${process.env.RESEND_API_KEY}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        personalizations: [{
-          to: [{ email: process.env.EMAIL_USER }],
-        }],
-        from: { email: process.env.EMAIL_USER },
-        reply_to: { email: addresse },
+        from: "Contacto Portfolio <onboarding@resend.dev>",
+        to: [process.env.EMAIL_USER],
+        reply_to: addresse,
         subject: subject,
-        content: [{
-          type: "text/plain",
-          value: `${message}\n\nRemitente: ${addresse}`,
-        }],
+        text: `${message}\n\nDe: ${name} — ${addresse}`,
       }),
     });
 
     if (!response.ok) {
       const errBody = await response.text();
-      console.error("SendGrid error:", response.status, errBody);
+      console.error("Resend error:", response.status, errBody);
       return res.status(500).send("Error al enviar el correo");
     }
 

@@ -1,74 +1,63 @@
-const { initializeData, findElementById } = require("./utils");
 const path = require("path");
-
-let dataBW = null;
-
-initializeData().then((res) => {
-  dataBW = res;
-});
+const bwService = require("./bw.service");
 
 exports.pingBW = (req, res) => {
-  try {
-    res.status(200).send("ping BW");
-  } catch (error) {
-    console.error("Error en pingBW:", error);
-    res.status(500).json({ message: "Error interno del servidor bw" });
-  }
+  res.status(200).send("ping BW");
 };
 
 exports.dataBW = (req, res) => {
-  try {
-    if (!dataBW) {
-      throw new Error("Datos no disponibles");
-    }
-    res.status(200).json(dataBW);
-  } catch (error) {
-    console.error("Error al obtener datos en dataBW:", error);
-    res.status(500).json({ message: "Error interno del servidor" });
+  const data = bwService.getData();
+  if (!data) {
+    return res.status(503).json({ message: "Datos no disponibles" });
   }
+  res.status(200).json(data);
 };
 
 exports.findObjId = (req, res) => {
-  const id = parseInt(req.params.id);
-  const element = findElementById(dataBW, id);
   try {
+    const id = parseInt(req.params.id);
+    const element = bwService.findById(id);
     if (element) {
       res.json(element);
     } else {
       res.status(404).send("Elemento no encontrado");
     }
   } catch (error) {
-    console.log(error);
+    console.error("Error en findObjId:", error);
+    res.status(500).json({ message: "Error interno del servidor" });
   }
 };
 
 exports.getKeys = (req, res) => {
   try {
-    const keywords = Object.keys(dataBW);
+    const keywords = bwService.getKeys();
     res.status(200).json(keywords);
   } catch (error) {
-    console.log(error);
+    console.error("Error en getKeys:", error);
+    res.status(500).json({ message: "Error interno del servidor" });
   }
 };
 
 exports.getImageId = (req, res) => {
-  console.log(req.params);
-  const imageName = req.params?.imageName; // Obtiene el valor del parámetro de ruta
-  const categoria = req.params?.categoria;
-  const imagePath = path.join(
-    __dirname,
-    `./public/images/${categoria}/${imageName}`
-  ); // RUTA API
-  console.log(imagePath);
-  res.sendFile(imagePath);
+  try {
+    const { categoria, imageName } = req.params;
+    const imagePath = path.join(
+      __dirname,
+      `./public/images/${categoria}/${imageName}`
+    );
+    res.sendFile(imagePath);
+  } catch (error) {
+    console.error("Error en getImageId:", error);
+    res.status(500).json({ message: "Error al obtener la imagen" });
+  }
 };
 
 exports.completedImg = (req, res) => {
   try {
-    const imagePath = path.join(__dirname, `./public/completed.jpg`); // RUTA API
-    console.log(imagePath);
+    const imagePath = path.join(__dirname, "./public/completed.jpg");
     res.sendFile(imagePath);
   } catch (error) {
-    console.log(error);
+    console.error("Error en completedImg:", error);
+    res.status(500).json({ message: "Error al obtener la imagen" });
   }
 };

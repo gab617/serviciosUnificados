@@ -1,34 +1,29 @@
-const dataHeros = require("./data/dataHeros.json");
-const herosDetail = require("./data/herosDetail.json");
-const { searchHeroDetail } = require("./utils");
+const d2Service = require("./d2.service");
 
 exports.pingD2 = (req, res) => {
-  try {
-    res.status(200).send("ping D2");
-  } catch (error) {
-    console.error("Error en pingD2:", error);
-    res.status(500).json({ message: "Error interno del servidor d2" });
-  }
+  res.status(200).send("ping D2");
 };
 
 exports.dataListHeros = (req, res) => {
   try {
-    res.status(200).json(dataHeros);
+    res.status(200).json(d2Service.getAllHeros());
   } catch (error) {
-    console.error("Error en pingD2:", error);
+    console.error("Error en dataListHeros:", error);
     res.status(500).json({ message: "Error interno del servidor d2" });
   }
 };
 
 exports.findHeroId = (req, res) => {
-    const id = +req.params.id
-    const heroDetailSearch = searchHeroDetail(herosDetail, id)
   try {
-    if (heroDetailSearch){
-        res.status(200).json(heroDetailSearch)
+    const id = +req.params.id;
+    const heroDetailSearch = d2Service.findById(id);
+    if (heroDetailSearch) {
+      res.status(200).json(heroDetailSearch);
+    } else {
+      res.status(404).json({ message: "Héroe no encontrado" });
     }
   } catch (error) {
-    console.error("Error en pingD2:", error);
+    console.error("Error en findHeroId:", error);
     res.status(500).json({ message: "Error interno del servidor d2" });
   }
 };

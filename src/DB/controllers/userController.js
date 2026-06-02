@@ -46,9 +46,19 @@ const uploadPointsUser = async (req, res) => {
   }
 };
 
+const uploadPointsMathUser = async (req, res) => {
+  try {
+    await userService.updateMathPoints(req.body);
+    res.status(200).json("Puntuacion math actualizada");
+  } catch (error) {
+    res.status(400).json({ error: "ERROR EN CONTROLLER MATH" });
+  }
+};
+
 module.exports = {
   register,
   login,
   getUsers,
   uploadPointsUser,
+  uploadPointsMathUser,
 };

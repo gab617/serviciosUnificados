@@ -58,8 +58,10 @@ const authenticateUser = async (userData) => {
         resolve({
           user: userData.user_handle,
           points: results[0].points,
+          points_math: results[0].points_math,
           id_user: results[0].user_id,
           best_racha: results[0].best_racha,
+          best_racha_math: results[0].best_racha_math,
         });
       } catch (compareError) {
         return reject(new Error("Error al verificar la contraseña"));
@@ -69,7 +71,7 @@ const authenticateUser = async (userData) => {
 };
 
 const getAllUsers = async () => {
-  const query = "SELECT user_id, user_handle, best_racha, points FROM users";
+  const query = "SELECT user_id, user_handle, best_racha, best_racha_math, points, points_math FROM users";
   return new Promise((resolve, reject) => {
     db.query(query, (err, results) => {
       if (err) return reject(err);
@@ -107,9 +109,39 @@ const updatePoints = async (userData) => {
   });
 };
 
+const updateMathPoints = async (userData) => {
+  const { id_user, best_racha_math } = userData.userData;
+  const points = userData.newPunt;
+  const id = id_user;
+  const newRacha = userData.rachaSession;
+  const newPointsUser = userData.userData.points_math + points;
+
+  const query = `
+  UPDATE users
+  SET
+    points_math = ?,
+    best_racha_math = CASE
+      WHEN ? > best_racha_math THEN ?
+      ELSE best_racha_math
+    END
+  WHERE user_id = ?;
+`;
+
+  return new Promise((resolve, reject) => {
+    db.query(query, [newPointsUser, newRacha, newRacha, id], (err, results) => {
+      if (err) return reject(err);
+      if (results.affectedRows === 0) {
+        return reject(new Error("Usuario no encontrado"));
+      }
+      resolve(results);
+    });
+  });
+};
+
 module.exports = {
   registerUser,
   authenticateUser,
   getAllUsers,
   updatePoints,
+  updateMathPoints,
 };

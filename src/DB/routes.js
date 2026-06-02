@@ -7,6 +7,7 @@ router.post('/register', userController.register)
 router.post('/login', userController.login)
 router.get('/users-data', userController.getUsers)
 router.put('/upl-points', userController.uploadPointsUser)
+router.put('/upl-points-math', userController.uploadPointsMathUser)
 router.get("/pingBDD",BDDController.verifyBDD)
 
 module.exports = router

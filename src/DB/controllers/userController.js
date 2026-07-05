@@ -55,20 +55,10 @@ const uploadPointsMathUser = async (req, res) => {
   }
 };
 
-const deleteUser = async (req, res) => {
-  try {
-    await userService.deleteUser(req.params.user_handle);
-    res.status(200).json({ message: "Usuario eliminado" });
-  } catch (error) {
-    res.status(400).json({ error: error.message });
-  }
-};
-
 module.exports = {
   register,
   login,
   getUsers,
   uploadPointsUser,
   uploadPointsMathUser,
-  deleteUser,
 };

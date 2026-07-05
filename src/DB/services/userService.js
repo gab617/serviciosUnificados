@@ -138,24 +138,10 @@ const updateMathPoints = async (userData) => {
   });
 };
 
-const deleteUser = async (userHandle) => {
-  const query = "DELETE FROM users WHERE user_handle = ?";
-  return new Promise((resolve, reject) => {
-    db.query(query, [userHandle], (err, result) => {
-      if (err) return reject(err);
-      if (result.affectedRows === 0) {
-        return reject(new Error("Usuario no encontrado"));
-      }
-      resolve(result);
-    });
-  });
-};
-
 module.exports = {
   registerUser,
   authenticateUser,
   getAllUsers,
   updatePoints,
   updateMathPoints,
-  deleteUser,
 };

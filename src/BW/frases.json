@@ -723,5 +723,65 @@
     { "ing": "A triangle has three straight sides", "esp": "Un triángulo tiene tres lados rectos" },
     { "ing": "The roof of the house is a triangle", "esp": "El techo de la casa es un triángulo" },
     { "ing": "Pizza slices look like triangles", "esp": "Las rebanadas de pizza tienen forma de triángulo" }
+  ],
+  "astronaut": [
+    { "ing": "The astronaut travels to space in a rocket", "esp": "El astronauta viaja al espacio en un cohete" },
+    { "ing": "Astronauts wear a helmet to breathe in space", "esp": "Los astronautas usan casco para respirar en el espacio" },
+    { "ing": "I want to be an astronaut and explore the moon", "esp": "Quiero ser astronauta y explorar la luna" }
+  ],
+  "chef": [
+    { "ing": "The chef cooks delicious meals in the kitchen", "esp": "El cocinero prepara comidas deliciosas en la cocina" },
+    { "ing": "A chef wears a tall white hat", "esp": "Un cocinero usa un gorro blanco alto" },
+    { "ing": "The chef tastes the soup before serving it", "esp": "El cocinero prueba la sopa antes de servirla" }
+  ],
+  "doctor": [
+    { "ing": "The doctor helps sick people get better", "esp": "El médico ayuda a las personas enfermas a mejorar" },
+    { "ing": "A doctor uses a stethoscope to listen to your heart", "esp": "Un médico usa un estetoscopio para escuchar tu corazón" },
+    { "ing": "I visit the doctor when I feel sick", "esp": "Visito al médico cuando me siento enfermo" }
+  ],
+  "farmer": [
+    { "ing": "The farmer grows food on the farm", "esp": "El granjero cultiva comida en la granja" },
+    { "ing": "A farmer wakes up early to take care of animals", "esp": "Un granjero se despierta temprano para cuidar a los animales" },
+    { "ing": "The farmer plants seeds in the soil", "esp": "El granjero siembra semillas en la tierra" }
+  ],
+  "firefighter": [
+    { "ing": "The firefighter puts out fires and saves people", "esp": "El bombero apaga incendios y salva personas" },
+    { "ing": "A firefighter wears a helmet and a heavy coat", "esp": "Un bombero usa casco y un abrigo pesado" },
+    { "ing": "The firefighter rides a big red truck", "esp": "El bombero viaja en un camión rojo grande" }
+  ],
+  "musician": [
+    { "ing": "The musician plays beautiful music for people", "esp": "El músico toca música hermosa para la gente" },
+    { "ing": "A musician can play the guitar or the piano", "esp": "Un músico puede tocar la guitarra o el piano" },
+    { "ing": "I want to be a musician and sing on stage", "esp": "Quiero ser músico y cantar en el escenario" }
+  ],
+  "nurse": [
+    { "ing": "The nurse takes care of patients at the hospital", "esp": "La enfermera cuida a los pacientes en el hospital" },
+    { "ing": "A nurse gives medicine to sick people", "esp": "Una enfermera da medicina a las personas enfermas" },
+    { "ing": "The nurse wears a white uniform and a cap", "esp": "La enfermera usa uniforme blanco y una cofia" }
+  ],
+  "painter": [
+    { "ing": "The painter creates beautiful pictures with colors", "esp": "El pintor crea imágenes hermosas con colores" },
+    { "ing": "A painter uses a brush and a palette to paint", "esp": "Un pintor usa un pincel y una paleta para pintar" },
+    { "ing": "The painter painted a colorful mural on the wall", "esp": "El pintor pintó un mural colorido en la pared" }
+  ],
+  "pilot": [
+    { "ing": "The pilot flies the airplane through the sky", "esp": "El piloto vuela el avión por el cielo" },
+    { "ing": "A pilot wears a uniform and a cap", "esp": "Un piloto usa uniforme y una gorra" },
+    { "ing": "The pilot sits in the cockpit to control the plane", "esp": "El piloto se sienta en la cabina para controlar el avión" }
+  ],
+  "police": [
+    { "ing": "The police officer protects the community", "esp": "El policía protege a la comunidad" },
+    { "ing": "A police officer wears a badge and a uniform", "esp": "Un policía usa una placa y un uniforme" },
+    { "ing": "The police officer helps people cross the street", "esp": "El policía ayuda a la gente a cruzar la calle" }
+  ],
+  "scientist": [
+    { "ing": "The scientist conducts experiments in a laboratory", "esp": "El científico hace experimentos en un laboratorio" },
+    { "ing": "A scientist uses a microscope to see tiny things", "esp": "Un científico usa un microscopio para ver cosas diminutas" },
+    { "ing": "The scientist discovered a new medicine", "esp": "El científico descubrió una nueva medicina" }
+  ],
+  "teacher": [
+    { "ing": "The teacher helps students learn new things", "esp": "El maestro ayuda a los estudiantes a aprender cosas nuevas" },
+    { "ing": "A teacher reads books to the class", "esp": "Un maestro lee libros a la clase" },
+    { "ing": "The teacher writes on the board with chalk", "esp": "El maestro escribe en el pizarrón con tiza" }
   ]
 }

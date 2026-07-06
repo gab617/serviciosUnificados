@@ -3,8 +3,8 @@ const path = require("path");
 const frases = require("./frases.json");
 
 let dataBW = null;
-const urlServidor = "https://serviciosunificados.onrender.com"
-/* const urlServidor = "http://localhost:3001" */
+/* const urlServidor = "https://serviciosunificados.onrender.com" */
+const urlServidor = "http://localhost:3001"
 
 const CATEGORIES = [
   "animales",
@@ -15,6 +15,7 @@ const CATEGORIES = [
   "frutas",
   "números",
   "objetos",
+  "profesiones",
   "transportes",
 ];
 

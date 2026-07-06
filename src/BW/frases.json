@@ -1,0 +1,727 @@
+{
+  "antelope": [
+    { "ing": "The antelope runs very fast in the savanna", "esp": "El antílope corre muy rápido en la sabana" },
+    { "ing": "Antelopes live in Africa in large herds", "esp": "Los antílopes viven en África en grandes manadas" },
+    { "ing": "The antelope has long curved horns", "esp": "El antílope tiene cuernos largos y curvos" }
+  ],
+  "bee": [
+    { "ing": "The bee makes honey in the hive", "esp": "La abeja hace miel en la colmena" },
+    { "ing": "Bees fly from flower to flower collecting pollen", "esp": "Las abejas vuelan de flor en flor recolectando polen" },
+    { "ing": "The bee has yellow and black stripes", "esp": "La abeja tiene rayas amarillas y negras" }
+  ],
+  "bird": [
+    { "ing": "The bird flies high in the sky", "esp": "El pájaro vuela alto en el cielo" },
+    { "ing": "Birds build nests in the trees", "esp": "Los pájaros construyen nidos en los árboles" },
+    { "ing": "The bird sings a beautiful song in the morning", "esp": "El pájaro canta una canción hermosa por la mañana" }
+  ],
+  "bison": [
+    { "ing": "The bison has a big and furry head", "esp": "El bisonte tiene una cabeza grande y peluda" },
+    { "ing": "Bison live in the grasslands of America", "esp": "Los bisontes viven en las praderas de América" },
+    { "ing": "The bison can run very fast despite its size", "esp": "El bisonte puede correr muy rápido a pesar de su tamaño" }
+  ],
+  "camel": [
+    { "ing": "The camel walks in the desert without water", "esp": "El camello camina en el desierto sin agua" },
+    { "ing": "Camels have humps that store fat for energy", "esp": "Los camellos tienen jorobas que almacenan grasa para energía" },
+    { "ing": "People ride camels to travel across the desert", "esp": "La gente monta camellos para viajar por el desierto" }
+  ],
+  "cat": [
+    { "ing": "The cat drinks milk in the kitchen", "esp": "El gato toma leche en la cocina" },
+    { "ing": "My cat purrs when I pet its soft fur", "esp": "Mi gato ronronea cuando acaricio su pelaje suave" },
+    { "ing": "Cats can see very well in the dark", "esp": "Los gatos pueden ver muy bien en la oscuridad" }
+  ],
+  "crab": [
+    { "ing": "The crab walks sideways on the sand", "esp": "El cangrejo camina de lado en la arena" },
+    { "ing": "Crabs have a hard shell to protect themselves", "esp": "Los cangrejos tienen un caparazón duro para protegerse" },
+    { "ing": "The crab hides under rocks when it gets scared", "esp": "El cangrejo se esconde debajo de las rocas cuando se asusta" }
+  ],
+  "dog": [
+    { "ing": "The dog is a loyal and loving friend", "esp": "El perro es un amigo leal y cariñoso" },
+    { "ing": "I walk my dog in the park every afternoon", "esp": "Paseo a mi perro en el parque cada tarde" },
+    { "ing": "Dogs wag their tail when they are happy", "esp": "Los perros mueven la cola cuando están felices" }
+  ],
+  "donkey": [
+    { "ing": "The donkey carries heavy loads on its back", "esp": "El burro carga cosas pesadas en su lomo" },
+    { "ing": "Donkeys make a loud sound called a bray", "esp": "Los burros hacen un sonido fuerte llamado rebuzno" },
+    { "ing": "The donkey is a very hardworking and patient animal", "esp": "El burro es un animal muy trabajador y paciente" }
+  ],
+  "elephant": [
+    { "ing": "The elephant is the biggest land animal", "esp": "El elefante es el animal terrestre más grande" },
+    { "ing": "Elephants use their trunk to drink water", "esp": "Los elefantes usan su trompa para beber agua" },
+    { "ing": "The elephant has large ears that look like fans", "esp": "El elefante tiene orejas grandes que parecen abanicos" }
+  ],
+  "goat": [
+    { "ing": "The goat climbs the mountain very easily", "esp": "La cabra sube la montaña con mucha facilidad" },
+    { "ing": "Goats eat grass and leaves from the trees", "esp": "Las cabras comen pasto y hojas de los árboles" },
+    { "ing": "A baby goat is called a kid", "esp": "Una cabra bebé se llama cabrito" }
+  ],
+  "horse": [
+    { "ing": "The horse gallops across the green field", "esp": "El caballo galopa por el campo verde" },
+    { "ing": "People ride horses for sport and transportation", "esp": "La gente monta caballos para deporte y transporte" },
+    { "ing": "The horse has a long mane and a beautiful tail", "esp": "El caballo tiene una crin larga y una cola hermosa" }
+  ],
+  "monkey": [
+    { "ing": "The monkey jumps from tree to tree", "esp": "El mono salta de árbol en árbol" },
+    { "ing": "Monkeys love to eat bananas and fruits", "esp": "A los monos les encanta comer bananas y frutas" },
+    { "ing": "The monkey uses its long tail to hang from branches", "esp": "El mono usa su cola larga para colgarse de las ramas" }
+  ],
+  "ostrich": [
+    { "ing": "The ostrich is a bird that cannot fly", "esp": "El avestruz es un ave que no puede volar" },
+    { "ing": "Ostriches run very fast using their long legs", "esp": "Los avestruces corren muy rápido usando sus patas largas" },
+    { "ing": "The ostrich lays the biggest eggs of all birds", "esp": "El avestruz pone los huevos más grandes de todas las aves" }
+  ],
+  "owl": [
+    { "ing": "The owl sleeps during the day and hunts at night", "esp": "El búho duerme de día y caza de noche" },
+    { "ing": "Owls can turn their head almost all the way around", "esp": "Los búhos pueden girar la cabeza casi por completo" },
+    { "ing": "The owl makes a hooting sound in the dark night", "esp": "El búho hace un sonido de ululato en la noche oscura" }
+  ],
+  "squid": [
+    { "ing": "The squid swims in the deep ocean", "esp": "El calamar nada en el océano profundo" },
+    { "ing": "Squid have eight arms and two long tentacles", "esp": "Los calamares tienen ocho brazos y dos tentáculos largos" },
+    { "ing": "The squid releases ink to escape from predators", "esp": "El calamar libera tinta para escapar de los depredadores" }
+  ],
+  "squirrel": [
+    { "ing": "The squirrel hides nuts in the tree", "esp": "La ardilla esconde nueces en el árbol" },
+    { "ing": "Squirrels have a bushy tail that helps them balance", "esp": "Las ardillas tienen una cola esponjosa que les ayuda a equilibrarse" },
+    { "ing": "The squirrel stores food for the winter season", "esp": "La ardilla guarda comida para la temporada de invierno" }
+  ],
+  "tuna": [
+    { "ing": "The tuna fish swims in groups in the sea", "esp": "El atún nada en grupos en el mar" },
+    { "ing": "Tuna is a popular fish used in sandwiches and salads", "esp": "El atún es un pescado popular usado en sándwiches y ensaladas" },
+    { "ing": "Tuna can swim very fast through the ocean water", "esp": "El atún puede nadar muy rápido a través del agua del océano" }
+  ],
+  "wasp": [
+    { "ing": "The wasp builds its nest with paper", "esp": "La avispa construye su nido con papel" },
+    { "ing": "Wasps have a thin waist and yellow and black stripes", "esp": "Las avispas tienen cintura delgada y rayas amarillas y negras" },
+    { "ing": "The wasp can sting to defend itself", "esp": "La avispa puede picar para defenderse" }
+  ],
+  "whale": [
+    { "ing": "The whale is the biggest animal in the ocean", "esp": "La ballena es el animal más grande del océano" },
+    { "ing": "Whales come to the surface to breathe air", "esp": "Las ballenas salen a la superficie para respirar aire" },
+    { "ing": "The whale sings songs that travel through the water", "esp": "La ballena canta canciones que viajan a través del agua" }
+  ],
+  "black": [
+    { "ing": "The night sky is black and full of stars", "esp": "El cielo nocturno es negro y está lleno de estrellas" },
+    { "ing": "A black cat crossed the street", "esp": "Un gato negro cruzó la calle" },
+    { "ing": "My favorite shoes are black and white", "esp": "Mis zapatos favoritos son negros y blancos" }
+  ],
+  "blue": [
+    { "ing": "The ocean water is blue and beautiful", "esp": "El agua del océano es azul y hermosa" },
+    { "ing": "I painted my bedroom sky blue", "esp": "Pinté mi dormitorio de azul cielo" },
+    { "ing": "The blue bird has bright colorful feathers", "esp": "El pájaro azul tiene plumas brillantes y coloridas" }
+  ],
+  "brown": [
+    { "ing": "The bear has soft brown fur", "esp": "El oso tiene un pelaje marrón y suave" },
+    { "ing": "The leaves turn brown in autumn", "esp": "Las hojas se vuelven marrones en otoño" },
+    { "ing": "I like to drink hot chocolate from a brown mug", "esp": "Me gusta tomar chocolate caliente en una taza marrón" }
+  ],
+  "cream": [
+    { "ing": "The baby wore a cream-colored sweater", "esp": "El bebé usaba un suéter color crema" },
+    { "ing": "The walls of my room are painted cream", "esp": "Las paredes de mi habitación están pintadas de crema" },
+    { "ing": "She chose a cream dress for the party", "esp": "Ella eligió un vestido color crema para la fiesta" }
+  ],
+  "cyan": [
+    { "ing": "The tropical water has a bright cyan color", "esp": "El agua tropical tiene un color cian brillante" },
+    { "ing": "Cyan is a mix between blue and green", "esp": "El cian es una mezcla entre azul y verde" },
+    { "ing": "The sky at dawn turned cyan and pink", "esp": "El cielo al amanecer se volvió cian y rosa" }
+  ],
+  "golden": [
+    { "ing": "The sunset painted the sky golden", "esp": "El atardecer pintó el cielo de dorado" },
+    { "ing": "The golden crown sparkled on the king head", "esp": "La corona dorada brillaba en la cabeza del rey" },
+    { "ing": "Golden leaves fall from the trees in autumn", "esp": "Las hojas doradas caen de los árboles en otoño" }
+  ],
+  "green": [
+    { "ing": "The grass is green after the rain", "esp": "El pasto está verde después de la lluvia" },
+    { "ing": "Green is the color of nature and plants", "esp": "El verde es el color de la naturaleza y las plantas" },
+    { "ing": "I eat green vegetables to stay healthy", "esp": "Como verduras verdes para mantenerme saludable" }
+  ],
+  "grey": [
+    { "ing": "The elephant has grey thick skin", "esp": "El elefante tiene la piel gris y gruesa" },
+    { "ing": "The sky turned grey before the storm", "esp": "El cielo se puso gris antes de la tormenta" },
+    { "ing": "My cat has beautiful grey stripes", "esp": "Mi gato tiene hermosas rayas grises" }
+  ],
+  "olive": [
+    { "ing": "The military uniform is olive green", "esp": "El uniforme militar es verde oliva" },
+    { "ing": "Olive is a greenish-brown color", "esp": "El oliva es un color verdoso-marrón" },
+    { "ing": "She painted her kitchen walls olive", "esp": "Ella pintó las paredes de su cocina de oliva" }
+  ],
+  "orange": [
+    { "ing": "Orange is a warm and bright color", "esp": "El naranja es un color cálido y brillante" },
+    { "ing": "The pumpkin turned orange when it was ready", "esp": "La calabaza se volvió naranja cuando estuvo lista" },
+    { "ing": "I wear an orange vest when I ride my bike", "esp": "Uso un chaleco naranja cuando ando en bici" }
+  ],
+  "pink": [
+    { "ing": "The flowers in the garden are pink", "esp": "Las flores del jardín son de color rosa" },
+    { "ing": "The baby girl wore a pink dress", "esp": "La niña usaba un vestido rosa" },
+    { "ing": "Pink cotton candy is my favorite treat", "esp": "El algodón de azúcar rosa es mi golosina favorita" }
+  ],
+  "purple": [
+    { "ing": "The grape juice is dark purple", "esp": "El jugo de uva es de color morado oscuro" },
+    { "ing": "Purple is the color of royal robes", "esp": "El morado es el color de las túnicas reales" },
+    { "ing": "I love purple flowers in my garden", "esp": "Amo las flores moradas en mi jardín" }
+  ],
+  "red": [
+    { "ing": "The fire truck is bright red", "esp": "El camión de bomberos es de color rojo brillante" },
+    { "ing": "Roses are red and smell wonderful", "esp": "Las rosas son rojas y huelen maravilloso" },
+    { "ing": "Ladybugs have red wings with black dots", "esp": "Las mariquitas tienen alas rojas con puntos negros" }
+  ],
+  "silver": [
+    { "ing": "The moon shines with a silver light", "esp": "La luna brilla con una luz plateada" },
+    { "ing": "My grandmother wears a silver necklace", "esp": "Mi abuela usa un collar de plata" },
+    { "ing": "The silver fish swam in the aquarium", "esp": "El pez plateado nadaba en el acuario" }
+  ],
+  "white": [
+    { "ing": "Snow is white and cold to touch", "esp": "La nieve es blanca y fría al tacto" },
+    { "ing": "The clouds in the sky are fluffy and white", "esp": "Las nubes en el cielo son esponjosas y blancas" },
+    { "ing": "I drew a white rabbit with a pencil", "esp": "Dibujé un conejo blanco con un lápiz" }
+  ],
+  "yellow": [
+    { "ing": "The sun is yellow and gives us light", "esp": "El sol es amarillo y nos da luz" },
+    { "ing": "Bananas are yellow when they are ripe", "esp": "Las bananas están amarillas cuando están maduras" },
+    { "ing": "The yellow school bus picks up children", "esp": "El autobús escolar amarillo recoge a los niños" }
+  ],
+  "ankle": [
+    { "ing": "I can rotate my ankle in circles", "esp": "Puedo girar mi tobillo en círculos" },
+    { "ing": "I wear socks that cover my ankle", "esp": "Uso medias que cubren mi tobillo" },
+    { "ing": "I hurt my ankle while playing soccer", "esp": "Me lastimé el tobillo jugando al fútbol" }
+  ],
+  "arm": [
+    { "ing": "I use my arm to lift things up", "esp": "Uso mi brazo para levantar cosas" },
+    { "ing": "My arm has a hand at the end", "esp": "Mi brazo tiene una mano al final" },
+    { "ing": "I broke my arm last year and wore a cast", "esp": "Me rompí el brazo el año pasado y usé un yeso" }
+  ],
+  "back": [
+    { "ing": "My back helps me stand up straight", "esp": "Mi espalda me ayuda a pararme derecho" },
+    { "ing": "I carry my backpack on my back", "esp": "Llevo mi mochila en mi espalda" },
+    { "ing": "I stretch my back after sitting for a long time", "esp": "Estiro mi espalda después de estar sentado mucho tiempo" }
+  ],
+  "chest": [
+    { "ing": "I feel my heart beat in my chest", "esp": "Siento mi corazón latir en mi pecho" },
+    { "ing": "The doctor listens to my chest with a stethoscope", "esp": "El doctor escucha mi pecho con un estetoscopio" },
+    { "ing": "I cross my arms over my chest when I am cold", "esp": "Cruzo mis brazos sobre mi pecho cuando tengo frío" }
+  ],
+  "ear": [
+    { "ing": "My ear lets me hear music and sounds", "esp": "Mi oreja me permite oír música y sonidos" },
+    { "ing": "I clean my ears carefully with a cotton swab", "esp": "Limpio mis oídos con cuidado con un hisopo" },
+    { "ing": "The rabbit has long ears", "esp": "El conejo tiene orejas largas" }
+  ],
+  "elbow": [
+    { "ing": "I bend my elbow to wave hello", "esp": "Doblo mi codo para saludar" },
+    { "ing": "My elbow connects my arm to my forearm", "esp": "Mi codo conecta mi brazo con mi antebrazo" },
+    { "ing": "I rested my elbows on the table", "esp": "Apoyé mis codos en la mesa" }
+  ],
+  "eye": [
+    { "ing": "I see the world with my eyes", "esp": "Veo el mundo con mis ojos" },
+    { "ing": "My eyes are brown like my mom eyes", "esp": "Mis ojos son marrones como los ojos de mi mamá" },
+    { "ing": "I close my eyes when I go to sleep", "esp": "Cierro mis ojos cuando me voy a dormir" }
+  ],
+  "finger": [
+    { "ing": "I have five fingers on each hand", "esp": "Tengo cinco dedos en cada mano" },
+    { "ing": "I point at things with my index finger", "esp": "Señalo las cosas con mi dedo índice" },
+    { "ing": "I wear a ring on my finger", "esp": "Uso un anillo en mi dedo" }
+  ],
+  "foot": [
+    { "ing": "I stand on my feet to walk", "esp": "Me paro sobre mis pies para caminar" },
+    { "ing": "I have ten toes on my feet", "esp": "Tengo diez dedos en mis pies" },
+    { "ing": "I put on my socks before my shoes on my feet", "esp": "Me pongo las medias antes que los zapatos en mis pies" }
+  ],
+  "hair": [
+    { "ing": "My hair grows on the top of my head", "esp": "Mi pelo crece en la parte superior de mi cabeza" },
+    { "ing": "I brush my hair every morning", "esp": "Me peino el pelo cada mañana" },
+    { "ing": "My sister has long and beautiful hair", "esp": "Mi hermana tiene el pelo largo y hermoso" }
+  ],
+  "hand": [
+    { "ing": "I write and draw with my hand", "esp": "Escribo y dibujo con mi mano" },
+    { "ing": "I wash my hands before eating", "esp": "Me lavo las manos antes de comer" },
+    { "ing": "We hold hands when crossing the street", "esp": "Nos tomamos de las manos al cruzar la calle" }
+  ],
+  "head": [
+    { "ing": "I think and learn with my head", "esp": "Pienso y aprendo con mi cabeza" },
+    { "ing": "I wear a helmet on my head to ride my bike", "esp": "Uso un casco en mi cabeza para andar en bici" },
+    { "ing": "My head has eyes, ears, a nose, and a mouth", "esp": "Mi cabeza tiene ojos, orejas, nariz y boca" }
+  ],
+  "knee": [
+    { "ing": "I bend my knee to sit down", "esp": "Doblo mi rodilla para sentarme" },
+    { "ing": "I fell and scraped my knee", "esp": "Me caí y raspé mi rodilla" },
+    { "ing": "My knee helps my leg bend and move", "esp": "Mi rodilla ayuda a mi pierna a doblarse y moverse" }
+  ],
+  "legs": [
+    { "ing": "My legs help me run and jump", "esp": "Mis piernas me ayudan a correr y saltar" },
+    { "ing": "I use my legs to kick a ball", "esp": "Uso mis piernas para patear una pelota" },
+    { "ing": "The frog has strong legs for jumping", "esp": "La rana tiene piernas fuertes para saltar" }
+  ],
+  "mouth": [
+    { "ing": "I speak and eat with my mouth", "esp": "Hablo y como con mi boca" },
+    { "ing": "I open my mouth when I yawn", "esp": "Abro mi boca cuando bostezo" },
+    { "ing": "The dentist checks my teeth inside my mouth", "esp": "El dentista revisa mis dientes dentro de mi boca" }
+  ],
+  "nails": [
+    { "ing": "I cut my fingernails when they get long", "esp": "Me corto las uñas cuando se ponen largas" },
+    { "ing": "I paint my nails with pretty colors", "esp": "Me pinto las uñas con colores bonitos" },
+    { "ing": "My nails protect the tips of my fingers", "esp": "Mis uñas protegen las puntas de mis dedos" }
+  ],
+  "neck": [
+    { "ing": "I turn my neck to look behind me", "esp": "Giro mi cuello para mirar detrás de mí" },
+    { "ing": "I wear a scarf around my neck in winter", "esp": "Uso una bufanda alrededor de mi cuello en invierno" },
+    { "ing": "The giraffe has a very long neck", "esp": "La jirafa tiene un cuello muy largo" }
+  ],
+  "nose": [
+    { "ing": "I smell flowers with my nose", "esp": "Huelo las flores con mi nariz" },
+    { "ing": "I wipe my nose with a tissue", "esp": "Me limpio la nariz con un pañuelo" },
+    { "ing": "My nose helps me taste food when I eat", "esp": "Mi nariz me ayuda a saborear la comida cuando como" }
+  ],
+  "shoulder": [
+    { "ing": "I carry my backpack on my shoulder", "esp": "Cargo mi mochila en mi hombro" },
+    { "ing": "My shoulder connects my arm to my body", "esp": "Mi hombro conecta mi brazo con mi cuerpo" },
+    { "ing": "I shrug my shoulders when I do not know", "esp": "Encojo los hombros cuando no sé" }
+  ],
+  "teeths": [
+    { "ing": "I brush my teeths every morning", "esp": "Me lavo los dientes cada mañana" },
+    { "ing": "The dentist checks my teeths for cavities", "esp": "El dentista revisa mis dientes por caries" },
+    { "ing": "My teeths help me chew food", "esp": "Mis dientes me ayudan a masticar la comida" }
+  ],
+  "angry": [
+    { "ing": "I feel angry when things are not fair", "esp": "Me siento enojado cuando las cosas no son justas" },
+    { "ing": "When I am angry I take a deep breath", "esp": "Cuando estoy enojado respiro profundo" },
+    { "ing": "The angry lion roared loudly in the jungle", "esp": "El león enojado rugió fuertemente en la jungla" }
+  ],
+  "bored": [
+    { "ing": "I feel bored when I have nothing to do", "esp": "Me siento aburrido cuando no tengo nada que hacer" },
+    { "ing": "Reading a book helps me when I am bored", "esp": "Leer un libro me ayuda cuando estoy aburrido" },
+    { "ing": "The bored student drew on the notebook", "esp": "El estudiante aburrido dibujó en el cuaderno" }
+  ],
+  "calm": [
+    { "ing": "I feel calm when I breathe slowly", "esp": "Me siento calmado cuando respiro lentamente" },
+    { "ing": "The ocean is calm and peaceful today", "esp": "El océano está calmado y pacífico hoy" },
+    { "ing": "I listen to calm music before sleeping", "esp": "Escucho música calmada antes de dormir" }
+  ],
+  "confused": [
+    { "ing": "I feel confused when I do not understand", "esp": "Me siento confundido cuando no entiendo" },
+    { "ing": "The difficult math problem left me confused", "esp": "El problema difícil de matemáticas me dejó confundido" },
+    { "ing": "I ask questions when I am confused in class", "esp": "Hago preguntas cuando estoy confundido en clase" }
+  ],
+  "excited": [
+    { "ing": "I feel excited before my birthday party", "esp": "Me siento emocionado antes de mi fiesta de cumpleaños" },
+    { "ing": "The dog gets excited when I come home", "esp": "El perro se emociona cuando llego a casa" },
+    { "ing": "I was excited to go to the amusement park", "esp": "Estaba emocionado de ir al parque de diversiones" }
+  ],
+  "happy": [
+    { "ing": "I feel happy when I play with my friends", "esp": "Me siento feliz cuando juego con mis amigos" },
+    { "ing": "The happy children laughed and danced", "esp": "Los niños felices reían y bailaban" },
+    { "ing": "I am happy when I help others", "esp": "Soy feliz cuando ayudo a los demás" }
+  ],
+  "hungry": [
+    { "ing": "I feel hungry when it is lunch time", "esp": "Me siento hambriento cuando es hora de almuerzo" },
+    { "ing": "The hungry cat waited for its food", "esp": "El gato hambriento esperaba su comida" },
+    { "ing": "I eat a snack when I feel hungry between meals", "esp": "Como un refrigerio cuando tengo hambre entre comidas" }
+  ],
+  "inlove": [
+    { "ing": "I feel inlove when I care for someone special", "esp": "Me siento enamorado cuando cuido a alguien especial" },
+    { "ing": "My parents are still inlove after many years", "esp": "Mis padres siguen enamorados después de muchos años" },
+    { "ing": "She feels inlove when she sees the sunset", "esp": "Ella se siente enamorada cuando ve el atardecer" }
+  ],
+  "nervous": [
+    { "ing": "I feel nervous before a big test", "esp": "Me siento nervioso antes de un examen grande" },
+    { "ing": "The nervous butterfly flew away quickly", "esp": "La mariposa nerviosa voló lejos rápidamente" },
+    { "ing": "Taking deep breaths helps me when I am nervous", "esp": "Respirar profundo me ayuda cuando estoy nervioso" }
+  ],
+  "proud": [
+    { "ing": "I feel proud when I learn something new", "esp": "Me siento orgulloso cuando aprendo algo nuevo" },
+    { "ing": "My parents are proud of my good grades", "esp": "Mis padres están orgullosos de mis buenas notas" },
+    { "ing": "The proud peacock displayed its feathers", "esp": "El pavo real orgulloso mostró sus plumas" }
+  ],
+  "sad": [
+    { "ing": "I feel sad when I miss my family", "esp": "Me siento triste cuando extraño a mi familia" },
+    { "ing": "The sad rainy day made me want to stay home", "esp": "El día triste y lluvioso me hizo querer quedarme en casa" },
+    { "ing": "A sad movie can make me cry", "esp": "Una película triste puede hacerme llorar" }
+  ],
+  "scared": [
+    { "ing": "I feel scared during a thunderstorm", "esp": "Me siento asustado durante una tormenta" },
+    { "ing": "The scared mouse hid in its hole", "esp": "El ratón asustado se escondió en su agujero" },
+    { "ing": "I am scared of the dark so I sleep with a nightlight", "esp": "Tengo miedo a la oscuridad así que duermo con una luz" }
+  ],
+  "shy": [
+    { "ing": "I feel shy when I meet new people", "esp": "Me siento tímido cuando conozco gente nueva" },
+    { "ing": "The shy boy hid behind his mom", "esp": "El niño tímido se escondió detrás de su mamá" },
+    { "ing": "Being shy is okay, take your time to open up", "esp": "Está bien ser tímido, tómate tu tiempo para abrirte" }
+  ],
+  "sick": [
+    { "ing": "I feel sick when my stomach hurts", "esp": "Me siento enfermo cuando me duele el estómago" },
+    { "ing": "The sick girl stayed home from school", "esp": "La niña enferma se quedó en casa sin ir a la escuela" },
+    { "ing": "I drink warm tea when I feel sick", "esp": "Tomo té caliente cuando me siento enfermo" }
+  ],
+  "sleepy": [
+    { "ing": "I feel sleepy when it is late at night", "esp": "Me siento soñoliento cuando es tarde en la noche" },
+    { "ing": "The sleepy bear hibernates in its cave", "esp": "El oso soñoliento hiberna en su cueva" },
+    { "ing": "I yawn when I feel sleepy", "esp": "Bostezo cuando me siento soñoliento" }
+  ],
+  "surprised": [
+    { "ing": "I feel surprised when I get a gift", "esp": "Me siento sorprendido cuando recibo un regalo" },
+    { "ing": "The surprised look on her face made everyone laugh", "esp": "La mirada sorprendida en su cara hizo reír a todos" },
+    { "ing": "I was surprised to see a rainbow after the rain", "esp": "Me sorprendió ver un arcoíris después de la lluvia" }
+  ],
+  "thirsty": [
+    { "ing": "I feel thirsty after playing outside", "esp": "Me siento sediento después de jugar afuera" },
+    { "ing": "I drink water when I am thirsty", "esp": "Tomo agua cuando tengo sed" },
+    { "ing": "The thirsty plant needs water every day", "esp": "La planta sedienta necesita agua cada día" }
+  ],
+  "tired": [
+    { "ing": "I feel tired after a long day at school", "esp": "Me siento cansado después de un largo día en la escuela" },
+    { "ing": "The tired worker sat down to rest", "esp": "El trabajador cansado se sentó a descansar" },
+    { "ing": "I go to bed early when I feel tired", "esp": "Me acuesto temprano cuando me siento cansado" }
+  ],
+  "apple": [
+    { "ing": "An apple a day keeps the doctor away", "esp": "Una manzana al día mantiene al médico lejos" },
+    { "ing": "I like to eat a red apple for a snack", "esp": "Me gusta comer una manzana roja como refrigerio" },
+    { "ing": "Apple juice is sweet and delicious", "esp": "El jugo de manzana es dulce y delicioso" }
+  ],
+  "blackberry": [
+    { "ing": "The blackberry is a small dark fruit", "esp": "La mora es una fruta pequeña y oscura" },
+    { "ing": "Blackberries grow on thorny bushes", "esp": "Las moras crecen en arbustos espinosos" },
+    { "ing": "I love blackberry jam on my toast", "esp": "Amo la mermelada de mora en mi tostada" }
+  ],
+  "blueberry": [
+    { "ing": "Blueberries are tiny and taste sweet", "esp": "Los arándanos son pequeños y saben dulce" },
+    { "ing": "I put blueberries on my cereal in the morning", "esp": "Pongo arándanos en mi cereal por la mañana" },
+    { "ing": "Blueberry muffins are my favorite breakfast", "esp": "Los muffins de arándano son mi desayuno favorito" }
+  ],
+  "cherry": [
+    { "ing": "The cherry on top of the cake looks yummy", "esp": "La cereza encima del pastel se ve deliciosa" },
+    { "ing": "Cherries are small red fruits with a pit inside", "esp": "Las cerezas son frutas rojas pequeñas con un carozo dentro" },
+    { "ing": "I like to eat cherries in the summer", "esp": "Me gusta comer cerezas en el verano" }
+  ],
+  "fig": [
+    { "ing": "The fig is a sweet fruit with many seeds", "esp": "El higo es una fruta dulce con muchas semillas" },
+    { "ing": "Figs are often eaten dried or fresh", "esp": "Los higos se comen a menudo secos o frescos" },
+    { "ing": "I tried fig jam and it was delicious", "esp": "Probé mermelada de higo y estaba deliciosa" }
+  ],
+  "grape": [
+    { "ing": "Grapes grow in bunches on the vine", "esp": "Las uvas crecen en racimos en la vid" },
+    { "ing": "Grapes can be green, red, or purple", "esp": "Las uvas pueden ser verdes, rojas o moradas" },
+    { "ing": "I eat frozen grapes as a cold snack", "esp": "Como uvas congeladas como refrigerio frío" }
+  ],
+  "lemon": [
+    { "ing": "The lemon is sour but makes good lemonade", "esp": "El limón es ácido pero hace buena limonada" },
+    { "ing": "I squeeze lemon juice on my fish", "esp": "Exprimo jugo de limón en mi pescado" },
+    { "ing": "Lemon trees grow yellow fruit in the garden", "esp": "Los limoneros dan fruta amarilla en el jardín" }
+  ],
+  "lime": [
+    { "ing": "The lime is green and tastes fresh", "esp": "La lima es verde y sabe fresca" },
+    { "ing": "I put lime in my water for a fresh flavor", "esp": "Pongo lima en mi agua para un sabor fresco" },
+    { "ing": "Lime is smaller and more sour than lemon", "esp": "La lima es más pequeña y más ácida que el limón" }
+  ],
+  "peach": [
+    { "ing": "The peach has a fuzzy skin and is juicy", "esp": "El durazno tiene la piel peluda y es jugoso" },
+    { "ing": "I love eating peaches in the summer time", "esp": "Amo comer duraznos en la época de verano" },
+    { "ing": "Peach ice cream is my favorite flavor", "esp": "El helado de durazno es mi sabor favorito" }
+  ],
+  "pear": [
+    { "ing": "The pear is sweet and soft when ripe", "esp": "La pera es dulce y suave cuando está madura" },
+    { "ing": "Pears are shaped like a bell", "esp": "Las peras tienen forma de campana" },
+    { "ing": "I eat a pear for a healthy snack", "esp": "Como una pera para un refrigerio saludable" }
+  ],
+  "pineapple": [
+    { "ing": "The pineapple has a rough skin and is yellow inside", "esp": "La piña tiene la piel áspera y es amarilla por dentro" },
+    { "ing": "Pineapple tastes sweet and sour at the same time", "esp": "La piña sabe dulce y ácida al mismo tiempo" },
+    { "ing": "I like pineapple on my pizza", "esp": "Me gusta la piña en mi pizza" }
+  ],
+  "plum": [
+    { "ing": "The plum can be purple or red and tastes sweet", "esp": "La ciruela puede ser morada o roja y sabe dulce" },
+    { "ing": "Plums have a hard seed in the middle", "esp": "Las ciruelas tienen una semilla dura en el medio" },
+    { "ing": "I ate a dried plum for a sweet treat", "esp": "Comí una ciruela pasa como un dulce" }
+  ],
+  "raspberry": [
+    { "ing": "Raspberries are small red fruits with tiny hairs", "esp": "Las frambuesas son frutas rojas pequeñas con pelitos" },
+    { "ing": "Raspberries grow on bushes in the garden", "esp": "Las frambuesas crecen en arbustos en el jardín" },
+    { "ing": "I love raspberry yogurt for breakfast", "esp": "Amo el yogur de frambuesa para el desayuno" }
+  ],
+  "strawberry": [
+    { "ing": "The strawberry is red and shaped like a heart", "esp": "La fresa es roja y tiene forma de corazón" },
+    { "ing": "Strawberries are my favorite fruit", "esp": "Las fresas son mi fruta favorita" },
+    { "ing": "I dip strawberries in chocolate for a treat", "esp": "Mojo fresas en chocolate para un gusto" }
+  ],
+  "watermelon": [
+    { "ing": "The watermelon is big and green on the outside", "esp": "La sandía es grande y verde por fuera" },
+    { "ing": "Watermelon is red inside and has black seeds", "esp": "La sandía es roja por dentro y tiene semillas negras" },
+    { "ing": "I eat watermelon on hot summer days", "esp": "Como sandía en los días calurosos de verano" }
+  ],
+  "eight": [
+    { "ing": "An octopus has eight arms", "esp": "Un pulpo tiene ocho brazos" },
+    { "ing": "Eight comes after seven and before nine", "esp": "El ocho viene después del siete y antes del nueve" },
+    { "ing": "A spider has eight legs", "esp": "Una araña tiene ocho patas" }
+  ],
+  "eighteen": [
+    { "ing": "Eighteen is the number after seventeen", "esp": "Dieciocho es el número después de diecisiete" },
+    { "ing": "You become an adult at eighteen years old", "esp": "Te conviertes en adulto a los dieciocho años" },
+    { "ing": "I have eighteen crayons in my box", "esp": "Tengo dieciocho crayones en mi caja" }
+  ],
+  "eleven": [
+    { "ing": "A soccer team has eleven players", "esp": "Un equipo de fútbol tiene once jugadores" },
+    { "ing": "Eleven comes after ten and before twelve", "esp": "El once viene después del diez y antes del doce" },
+    { "ing": "I am eleven years old", "esp": "Tengo once años" }
+  ],
+  "fifteen": [
+    { "ing": "Fifteen minutes is a quarter of an hour", "esp": "Quince minutos es un cuarto de hora" },
+    { "ing": "Fifteen is five times three", "esp": "Quince es cinco por tres" },
+    { "ing": "I have fifteen books in my backpack", "esp": "Tengo quince libros en mi mochila" }
+  ],
+  "five": [
+    { "ing": "I have five fingers on my hand", "esp": "Tengo cinco dedos en mi mano" },
+    { "ing": "A star has five points", "esp": "Una estrella tiene cinco puntas" },
+    { "ing": "I ate five grapes for a snack", "esp": "Comí cinco uvas como refrigerio" }
+  ],
+  "four": [
+    { "ing": "A square has four equal sides", "esp": "Un cuadrado tiene cuatro lados iguales" },
+    { "ing": "A dog has four legs", "esp": "Un perro tiene cuatro patas" },
+    { "ing": "There are four seasons in a year", "esp": "Hay cuatro estaciones en un año" }
+  ],
+  "fourteen": [
+    { "ing": "Fourteen is two times seven", "esp": "Catorce es dos veces siete" },
+    { "ing": "Fourteen comes after thirteen", "esp": "Catorce viene después de trece" },
+    { "ing": "I counted fourteen birds in the tree", "esp": "Conté catorce pájaros en el árbol" }
+  ],
+  "nine": [
+    { "ing": "A cat has nine lives they say", "esp": "Dicen que un gato tiene nueve vidas" },
+    { "ing": "Nine is the number after eight", "esp": "Nueve es el número después de ocho" },
+    { "ing": "I have nine crayons in my pencil case", "esp": "Tengo nueve crayones en mi estuche" }
+  ],
+  "nineteen": [
+    { "ing": "Nineteen is the number before twenty", "esp": "Diecinueve es el número antes de veinte" },
+    { "ing": "Nineteen is a prime number", "esp": "Diecinueve es un número primo" },
+    { "ing": "There are nineteen students in my class", "esp": "Hay diecinueve estudiantes en mi clase" }
+  ],
+  "one": [
+    { "ing": "One is the first and smallest number", "esp": "Uno es el primer número y el más pequeño" },
+    { "ing": "I have one nose on my face", "esp": "Tengo una nariz en mi cara" },
+    { "ing": "One sun gives us light every day", "esp": "Un sol nos da luz cada día" }
+  ],
+  "seven": [
+    { "ing": "There are seven days in a week", "esp": "Hay siete días en una semana" },
+    { "ing": "Seven comes after six and before eight", "esp": "Siete viene después de seis y antes de ocho" },
+    { "ing": "A rainbow has seven colors", "esp": "Un arcoíris tiene siete colores" }
+  ],
+  "seventeen": [
+    { "ing": "Seventeen comes after sixteen", "esp": "Diecisiete viene después de dieciséis" },
+    { "ing": "Seventeen is a prime number", "esp": "Diecisiete es un número primo" },
+    { "ing": "I have seventeen toys in my room", "esp": "Tengo diecisiete juguetes en mi habitación" }
+  ],
+  "six": [
+    { "ing": "A cube has six equal faces", "esp": "Un cubo tiene seis caras iguales" },
+    { "ing": "Six comes after five and before seven", "esp": "Seis viene después de cinco y antes de siete" },
+    { "ing": "An insect has six legs", "esp": "Un insecto tiene seis patas" }
+  ],
+  "sixteen": [
+    { "ing": "Sixteen is four times four", "esp": "Dieciséis es cuatro por cuatro" },
+    { "ing": "Sixteen comes after fifteen", "esp": "Dieciséis viene después de quince" },
+    { "ing": "Sweet sixteen is a special birthday", "esp": "Los dulces dieciséis son un cumpleaños especial" }
+  ],
+  "ten": [
+    { "ing": "I have ten toes on my feet", "esp": "Tengo diez dedos en mis pies" },
+    { "ing": "Ten is the number after nine", "esp": "Diez es el número después de nueve" },
+    { "ing": "Two hands have ten fingers in total", "esp": "Dos manos tienen diez dedos en total" }
+  ],
+  "thirteen": [
+    { "ing": "Thirteen is considered an unlucky number", "esp": "Se considera que trece es un número de mala suerte" },
+    { "ing": "Thirteen comes after twelve", "esp": "Trece viene después de doce" },
+    { "ing": "I have thirteen books in my shelf", "esp": "Tengo trece libros en mi estante" }
+  ],
+  "tirteen": [
+    { "ing": "Thirteen is considered an unlucky number", "esp": "Se considera que trece es un número de mala suerte" },
+    { "ing": "Thirteen comes after twelve", "esp": "Trece viene después de doce" },
+    { "ing": "I have thirteen books in my shelf", "esp": "Tengo trece libros en mi estante" }
+  ],
+  "twelve": [
+    { "ing": "There are twelve months in a year", "esp": "Hay doce meses en un año" },
+    { "ing": "A clock has twelve numbers on it", "esp": "Un reloj tiene doce números" },
+    { "ing": "Twelve eggs make a dozen", "esp": "Doce huevos hacen una docena" }
+  ],
+  "twenty": [
+    { "ing": "Twenty is the number after nineteen", "esp": "Veinte es el número después de diecinueve" },
+    { "ing": "I have twenty teeth in my mouth", "esp": "Tengo veinte dientes en mi boca" },
+    { "ing": "Twenty is two times ten", "esp": "Veinte es dos por diez" }
+  ],
+  "two": [
+    { "ing": "I have two eyes and two ears", "esp": "Tengo dos ojos y dos orejas" },
+    { "ing": "Two is the number after one", "esp": "Dos es el número después de uno" },
+    { "ing": "A bicycle has two wheels", "esp": "Una bicicleta tiene dos ruedas" }
+  ],
+  "bed": [
+    { "ing": "My bed is soft and warm at night", "esp": "Mi cama es suave y cálida por la noche" },
+    { "ing": "I make my bed every morning", "esp": "Hago mi cama cada mañana" },
+    { "ing": "I read a book before going to bed", "esp": "Leo un libro antes de ir a la cama" }
+  ],
+  "book": [
+    { "ing": "I love to read a book before sleeping", "esp": "Me encanta leer un libro antes de dormir" },
+    { "ing": "The book has many colorful pictures", "esp": "El libro tiene muchas imágenes coloridas" },
+    { "ing": "I borrow a book from the school library", "esp": "Tomo prestado un libro de la biblioteca de la escuela" }
+  ],
+  "chair": [
+    { "ing": "I sit on a chair at the table to eat", "esp": "Me siento en una silla en la mesa para comer" },
+    { "ing": "The teacher sits on a big chair", "esp": "La maestra se sienta en una silla grande" },
+    { "ing": "I push my chair in after I stand up", "esp": "Empujo mi silla después de levantarme" }
+  ],
+  "clock": [
+    { "ing": "The clock tells us the time of day", "esp": "El reloj nos dice la hora del día" },
+    { "ing": "I look at the clock to know when to go to school", "esp": "Miro el reloj para saber cuándo ir a la escuela" },
+    { "ing": "The clock on the wall ticks all day", "esp": "El reloj en la pared hace tictac todo el día" }
+  ],
+  "fork": [
+    { "ing": "I use a fork to eat my pasta", "esp": "Uso un tenedor para comer mi pasta" },
+    { "ing": "The fork has four sharp prongs", "esp": "El tenedor tiene cuatro puntas afiladas" },
+    { "ing": "I set the fork on the left side of the plate", "esp": "Pongo el tenedor en el lado izquierdo del plato" }
+  ],
+  "home": [
+    { "ing": "My home is where my family lives", "esp": "Mi hogar es donde vive mi familia" },
+    { "ing": "I feel safe and happy at home", "esp": "Me siento seguro y feliz en casa" },
+    { "ing": "We decorate our home during the holidays", "esp": "Decoramos nuestro hogar durante las fiestas" }
+  ],
+  "knife": [
+    { "ing": "The knife cuts bread and fruit", "esp": "El cuchillo corta pan y fruta" },
+    { "ing": "Be careful with a knife because it is sharp", "esp": "Ten cuidado con el cuchillo porque es afilado" },
+    { "ing": "The chef uses a knife to chop vegetables", "esp": "El chef usa un cuchillo para picar verduras" }
+  ],
+  "lamp": [
+    { "ing": "The lamp lights up the dark room", "esp": "La lámpara ilumina la habitación oscura" },
+    { "ing": "I turn on the lamp when I read at night", "esp": "Enciendo la lámpara cuando leo de noche" },
+    { "ing": "The lamp on my desk helps me study", "esp": "La lámpara en mi escritorio me ayuda a estudiar" }
+  ],
+  "mirror": [
+    { "ing": "I look at myself in the mirror every morning", "esp": "Me miro en el espejo cada mañana" },
+    { "ing": "The mirror shows my reflection", "esp": "El espejo muestra mi reflejo" },
+    { "ing": "I practice smiling in the mirror", "esp": "Practico sonreír en el espejo" }
+  ],
+  "pants": [
+    { "ing": "I wear pants on my legs to go outside", "esp": "Uso pantalones en mis piernas para salir" },
+    { "ing": "My pants have two pockets for my hands", "esp": "Mis pantalones tienen dos bolsillos para mis manos" },
+    { "ing": "I put on my pants before my shoes", "esp": "Me pongo los pantalones antes que los zapatos" }
+  ],
+  "pen": [
+    { "ing": "I write my name with a blue pen", "esp": "Escribo mi nombre con un bolígrafo azul" },
+    { "ing": "The pen has ink inside to write on paper", "esp": "El bolígrafo tiene tinta para escribir en papel" },
+    { "ing": "I lost my favorite pen at school", "esp": "Perdí mi bolígrafo favorito en la escuela" }
+  ],
+  "pencil": [
+    { "ing": "I draw pictures with my pencil", "esp": "Dibujo imágenes con mi lápiz" },
+    { "ing": "I sharpen my pencil when the tip is dull", "esp": "Saco punta a mi lápiz cuando la punta está roma" },
+    { "ing": "The pencil has an eraser on top to fix mistakes", "esp": "El lápiz tiene una goma arriba para corregir errores" }
+  ],
+  "shirt": [
+    { "ing": "My shirt is clean and ready for school", "esp": "Mi camisa está limpia y lista para la escuela" },
+    { "ing": "I wear a white shirt for my school uniform", "esp": "Uso una camisa blanca para mi uniforme escolar" },
+    { "ing": "The shirt has buttons on the front", "esp": "La camisa tiene botones en el frente" }
+  ],
+  "shoes": [
+    { "ing": "I tie my shoes before going out to play", "esp": "Me ato los zapatos antes de salir a jugar" },
+    { "ing": "My shoes protect my feet when I walk", "esp": "Mis zapatos protegen mis pies cuando camino" },
+    { "ing": "I put on my shoes after my socks", "esp": "Me pongo los zapatos después de las medias" }
+  ],
+  "spoon": [
+    { "ing": "I eat soup with a spoon", "esp": "Como la sopa con una cuchara" },
+    { "ing": "The spoon is round and holds liquid", "esp": "La cuchara es redonda y contiene líquido" },
+    { "ing": "I use a spoon to eat my ice cream", "esp": "Uso una cuchara para comer mi helado" }
+  ],
+  "table": [
+    { "ing": "We eat dinner together at the table", "esp": "Cenamos juntos en la mesa" },
+    { "ing": "I do my homework on the table", "esp": "Hago mi tarea en la mesa" },
+    { "ing": "The table has four legs and a flat top", "esp": "La mesa tiene cuatro patas y una superficie plana" }
+  ],
+  "tree": [
+    { "ing": "The tree gives us shade and fresh air", "esp": "El árbol nos da sombra y aire fresco" },
+    { "ing": "Birds build their nests in the tree", "esp": "Los pájaros construyen sus nidos en el árbol" },
+    { "ing": "The tree grows apples in the autumn", "esp": "El árbol da manzanas en el otoño" }
+  ],
+  "window": [
+    { "ing": "I look outside through the window", "esp": "Miro afuera a través de la ventana" },
+    { "ing": "I open the window to let fresh air in", "esp": "Abro la ventana para dejar entrar aire fresco" },
+    { "ing": "The window has glass that you can see through", "esp": "La ventana tiene vidrio que se puede ver a través" }
+  ],
+  "bicycle": [
+    { "ing": "I ride my bicycle in the park", "esp": "Ando en mi bicicleta en el parque" },
+    { "ing": "A bicycle has two wheels and pedals", "esp": "Una bicicleta tiene dos ruedas y pedales" },
+    { "ing": "I wear a helmet when I ride my bicycle", "esp": "Uso un casco cuando ando en mi bicicleta" }
+  ],
+  "boat": [
+    { "ing": "The boat floats on the lake water", "esp": "El bote flota en el agua del lago" },
+    { "ing": "We row the boat with oars", "esp": "Remamos el bote con remos" },
+    { "ing": "The boat has a sail that catches the wind", "esp": "El bote tiene una vela que atrapa el viento" }
+  ],
+  "bus": [
+    { "ing": "The bus takes children to school", "esp": "El autobús lleva a los niños a la escuela" },
+    { "ing": "I wait at the bus stop for the yellow bus", "esp": "Espero en la parada el autobús amarillo" },
+    { "ing": "The bus has many seats for people", "esp": "El autobús tiene muchos asientos para la gente" }
+  ],
+  "car": [
+    { "ing": "The car drives on the road with four wheels", "esp": "El auto maneja en la carretera con cuatro ruedas" },
+    { "ing": "My family has a red car that we use for trips", "esp": "Mi familia tiene un auto rojo que usamos para viajes" },
+    { "ing": "The car has a steering wheel to turn", "esp": "El auto tiene un volante para girar" }
+  ],
+  "plane": [
+    { "ing": "The plane flies high above the clouds", "esp": "El avión vuela alto sobre las nubes" },
+    { "ing": "I travel on a plane to visit other countries", "esp": "Viajo en avión para visitar otros países" },
+    { "ing": "The plane has wings and an engine to fly", "esp": "El avión tiene alas y un motor para volar" }
+  ],
+  "train": [
+    { "ing": "The train moves fast on the railway tracks", "esp": "El tren se mueve rápido por las vías del ferrocarril" },
+    { "ing": "I ride the train to visit my grandmother", "esp": "Tomo el tren para visitar a mi abuela" },
+    { "ing": "The train goes choo choo and blows smoke", "esp": "El tren hace chu chu y echa humo" }
+  ],
+  "circle": [
+    { "ing": "A circle has no corners or edges", "esp": "Un círculo no tiene esquinas ni bordes" },
+    { "ing": "The sun looks like a big circle in the sky", "esp": "El sol se ve como un círculo grande en el cielo" },
+    { "ing": "I can draw a circle with a compass", "esp": "Puedo dibujar un círculo con un compás" }
+  ],
+  "crescent": [
+    { "ing": "The crescent moon appears at night", "esp": "La luna creciente aparece por la noche" },
+    { "ing": "A crescent shape is like a curved slice", "esp": "Una forma de creciente es como una rebanada curva" },
+    { "ing": "I saw a crescent moon in the dark sky", "esp": "Vi una luna creciente en el cielo oscuro" }
+  ],
+  "diamond": [
+    { "ing": "A diamond looks like a tilted square", "esp": "Un diamante se ve como un cuadrado inclinado" },
+    { "ing": "The kite is shaped like a diamond", "esp": "La cometa tiene forma de diamante" },
+    { "ing": "Diamonds are very shiny and hard", "esp": "Los diamantes son muy brillantes y duros" }
+  ],
+  "heart": [
+    { "ing": "A heart shape means love and care", "esp": "Una forma de corazón significa amor y cariño" },
+    { "ing": "I gave my mom a heart-shaped card", "esp": "Le di a mi mamá una tarjeta con forma de corazón" },
+    { "ing": "The heart shape has two curves on top", "esp": "La forma de corazón tiene dos curvas arriba" }
+  ],
+  "hexagon": [
+    { "ing": "A hexagon has six straight sides", "esp": "Un hexágono tiene seis lados rectos" },
+    { "ing": "Honeycomb cells are perfect hexagons", "esp": "Las celdas del panal son hexágonos perfectos" },
+    { "ing": "I counted six sides on the hexagon", "esp": "Conté seis lados en el hexágono" }
+  ],
+  "octagon": [
+    { "ing": "An octagon has eight straight sides", "esp": "Un octágono tiene ocho lados rectos" },
+    { "ing": "Stop signs are red octagons", "esp": "Las señales de pare son octágonos rojos" },
+    { "ing": "I counted eight sides on the octagon", "esp": "Conté ocho lados en el octágono" }
+  ],
+  "oval": [
+    { "ing": "An oval is like a stretched circle", "esp": "Un óvalo es como un círculo estirado" },
+    { "ing": "The egg is shaped like an oval", "esp": "El huevo tiene forma de óvalo" },
+    { "ing": "I drew an oval face in my picture", "esp": "Dibujé una cara ovalada en mi dibujo" }
+  ],
+  "pentagon": [
+    { "ing": "A pentagon has five straight sides", "esp": "Un pentágono tiene cinco lados rectos" },
+    { "ing": "The building in Washington is a pentagon", "esp": "El edificio en Washington es un pentágono" },
+    { "ing": "I drew a pentagon for my art class", "esp": "Dibujé un pentágono para mi clase de arte" }
+  ],
+  "rectangle": [
+    { "ing": "A rectangle has two long and two short sides", "esp": "Un rectángulo tiene dos lados largos y dos cortos" },
+    { "ing": "My book is shaped like a rectangle", "esp": "Mi libro tiene forma de rectángulo" },
+    { "ing": "The door is a tall rectangle", "esp": "La puerta es un rectángulo alto" }
+  ],
+  "square": [
+    { "ing": "A square has four equal sides", "esp": "Un cuadrado tiene cuatro lados iguales" },
+    { "ing": "The window is shaped like a square", "esp": "La ventana tiene forma de cuadrado" },
+    { "ing": "I draw a square to make a house", "esp": "Dibujo un cuadrado para hacer una casa" }
+  ],
+  "star": [
+    { "ing": "The star shines bright in the night sky", "esp": "La estrella brilla fuerte en el cielo nocturno" },
+    { "ing": "I drew a star with five points", "esp": "Dibujé una estrella con cinco puntas" },
+    { "ing": "A star has five points and shines at night", "esp": "Una estrella tiene cinco puntas y brilla de noche" }
+  ],
+  "triangle": [
+    { "ing": "A triangle has three straight sides", "esp": "Un triángulo tiene tres lados rectos" },
+    { "ing": "The roof of the house is a triangle", "esp": "El techo de la casa es un triángulo" },
+    { "ing": "Pizza slices look like triangles", "esp": "Las rebanadas de pizza tienen forma de triángulo" }
+  ]
+}

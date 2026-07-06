@@ -1,9 +1,22 @@
 const fs = require("fs/promises");
 const path = require("path");
+const frases = require("./frases.json");
 
 let dataBW = null;
 const urlServidor = "https://serviciosunificados.onrender.com"
 /* const urlServidor = "http://localhost:3001" */
+
+const CATEGORIES = [
+  "animales",
+  "colores",
+  "cuerpo",
+  "emociones",
+  "figuras",
+  "frutas",
+  "números",
+  "objetos",
+  "transportes",
+];
 
 const loadData = async () => {
   console.log("Iniciando la carga de datos...");
@@ -11,8 +24,9 @@ const loadData = async () => {
   const directorio = path.join(__dirname, "public/images");
 
   try {
-    // Lee el directorio principal
-    const archivos = await fs.readdir(directorio);
+    // Lee el directorio principal y filtra por categorías activas
+    const archivos = (await fs.readdir(directorio))
+      .filter((dir) => CATEGORIES.includes(dir));
 
     let id = 0;
     const promesasDeLectura = archivos.map(async (archivo) => {
@@ -26,6 +40,7 @@ const loadData = async () => {
           let separacionDePartes = nombreImagen.split("_");
           let texto_español = separacionDePartes[1]?.split(".")[0];
           let texto_ingles = separacionDePartes[0];
+          let ingles_minus = texto_ingles.toLowerCase();
           return {
             id: id,
             url: `${urlServidor}/bw/${archivo}/${nombreImagen}`,
@@ -38,6 +53,7 @@ const loadData = async () => {
               texto_español?.slice(1).replace(/\.[^.]+$/, "")
             }`,
             activo: false,
+            frases: frases[ingles_minus] || [],
           };
         });
 
